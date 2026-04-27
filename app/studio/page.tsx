@@ -1,9 +1,9 @@
-import React from 'react'
+import { StudioGenerator } from "@/components/StudioGenerator";
 
-function page() {
+export default function StudioPage() {
   return (
-    <div>StudioPage</div>
-  )
+    <main className="min-h-screen bg-background">
+      <StudioGenerator />
+    </main>
+  );
 }
-
-export default page
